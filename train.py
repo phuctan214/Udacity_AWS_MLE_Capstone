@@ -91,6 +91,7 @@ if __name__ == "__main__":
         logging_dir=f"{args.output_data_dir}/logs",
         learning_rate=float(args.learning_rate),
         load_best_model_at_end=True,
+        save_total_limit = 1,
         metric_for_best_model="f1",
     )
 
