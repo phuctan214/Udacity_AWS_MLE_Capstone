@@ -54,7 +54,7 @@ After splitting our dataset into train, validation, test. We can store them into
 
 You can use [train.py](./train.py) for hyperparameter tuning for benchmark and refined model, respectively. This point is similar for [train.py](./train.py) and [train_augmentation.py](./train_augmentation.py) for training and evaluation.
 
-And finally, you can use [sagemaker.ipynb](./starter/sagemaker.ipynb) as an orchestrator for all the mentioned above scripts to create the pipeline in SageMaker.
+And finally, you can use [sagemaker.ipynb](./sagemaker.ipynb) as an orchestrator for all the mentioned above scripts to create the pipeline in SageMaker.
 
 ## Profiler Reports
 The reports of the SageMaker profiler is organized in [profiler reports](./ProfilerReports/benchmark)
